@@ -1,6 +1,6 @@
-## automatic_detect
+## Automatic_detect
 
-code for automatic detecting attacks in ETH protocols
+code for automatic detecting attacks in ETH protocols, especially HTLCs
 
 ## Simple DRL
 
