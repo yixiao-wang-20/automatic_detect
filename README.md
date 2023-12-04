@@ -12,6 +12,9 @@ python DRL/Simple_DRL/btc.py
 
 ## Hierarchical DRL
 
+To reproduce reverse bribe attack in mad-htlc using hierarchical DRL
+first train the deep model using multi-stage training, then go testing
+
 ***training***
 
 pre-training:
@@ -35,7 +38,13 @@ python DRL/hDRL/training/option/B_option/_start_the_game.py
 python DRL/hDRL/test/1.compare_DRL_with_policy/_start_the_game.py
 ```
 
-**Traversal**
+## For testing other protocols
+
+modify the environment.py file, model the targeted protocol
+
+## Traversal
+
+our comparative traditional traversal method
 
 ```shell
 python Traversal/explore_mad/search.py
